@@ -101,7 +101,7 @@ width: 100%;
 	position: absolute;
 	width: 582px;
 	height: 177px;
-	margin-left: 698px;
+	margin-left: 612px;
 	margin-top: 113px;
 }
 h2{
@@ -123,7 +123,6 @@ section#contenidos{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center bottom;
-
 }
 section#mapa{
 	width: 100%;
