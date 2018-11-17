@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+nav{
+	width: 100;
+	height: 70px;
+	background-color: #E9ED58; 
+}
+header{
+	widht: 100%;
+	height: 600px;
+	background-image: url(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+#centrar_nav, #centrar_header, #centrar_promo,
+#centrar_contenidos, #centrar_mapa,#centrar_footer{
+	width: 1200px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+#centrar_nav img{
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 30px; 
+}
+#menu{
+	list-style: none;
+	padding-top: 25px;
+}
+#menu li{
+	float: left;
+	margin-left: 30px;
+}
+#menu a{
+	font-size: 20px;
+	font-family: "Gill ,Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #262626;
+	font-weight: 100px;  
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+#menu a:hover{
+	color: white;
+}
+#sociales{
+	float: right;
+	list-style: none;
+}
+#facebook{
+	width: 10px;
+	height: 20px;
+	background-image: url(../img/sociales/facebook.svg);
+}
+
+#facebook:hover{
+	background-image: url(../img/sociales/facebookgreen.svg);
+}
+#twitter{
+	width: 22px;
+	height: 18px;
+	background-image: url(../img/sociales/twitter.svg);
+}
+#twitter:hover{
+	background-image: url(../img/sociales/twittergreen.svg);
+}
+#instagram{
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/sociales/instagram.svg);
+}
+#instagram:hover{
+	background-image: url(../img/sociales/instagramgreen.svg);
+}
+
+#sociales li{
+	float:left;
+	margin-left: 19px;
+	margin-right: 15px;
+}
+
+section#promo{
+width: 100%;
+	height: 400px;
+	background-image: url(../img/bg_bienvenida.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+}
+#txtPromo{
+	position: absolute;
+	width: 582px;
+	height: 177px;
+	margin-left: 698px;
+	margin-top: 113px;
+}
+h2{
+	font-size: 40px;
+	color: #A1C133;
+	font-weight: 100px;
+	font-family: Helvetica;
+	font-style: normal;
+}
+h3{
+	font-size: 25px;
+	font-family: Helvetica;
+	font-weight: 100px;
+}
+section#contenidos{
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/fondoEspecialidades.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+
+}
+section#mapa{
+	width: 100%;
+	height: 420px;
+	background-color: white;
+}
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: #A1C133;
+
+}
